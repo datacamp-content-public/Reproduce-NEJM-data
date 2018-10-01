@@ -1,6 +1,6 @@
 ---
-title: 'Template Chapter 1'
-description: 'This is a template chapter.'
+title: 'Get Acquainted with the DIG dataset'
+description: 'In this chapter you''ll use the tidyverse instruments to explore and get familiar with the dataset'
 ---
 
 ## An exercise title written in sentence case
@@ -13,13 +13,12 @@ xp: 100
 skills: 1
 ```
 
-This is the Context. It should help provide students with the background information needed.
-The Instructions that follow should be in bullet point form with clear guidance for what is expected.
+In 1997 this paper came out on the prestigious NEJM. The aim was to compare the use of cardiac glycosides in the treatment of patients with heart failure and normal sinus rhythm, since it is controversial.
 
 `@instructions`
-- Instruction 1
-- Instruction 2
-- Instruction 3
+- Load the Tidyverse package
+- Read the file dig.csv using the appropriate function
+- use glimpse() to look at the structure
 
 `@hint`
 - Here is the hint for this setup problem. 
@@ -34,15 +33,15 @@ The Instructions that follow should be in bullet point form with clear guidance 
 
 `@sample_code`
 ```{r}
-# Your
-# sample
-# code
-# should
-# be
-# ideally
-# 10 lines or less,
-# with a max
-# of 16 lines.
+#load the Tidyverse package
+library(___)
+
+#read the dig.csv file with the appropriate function from the package
+dig <- ___()
+
+#explore the content of the dataset
+___
+
 ```
 
 `@solution`
