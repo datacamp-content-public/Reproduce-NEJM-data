@@ -3,7 +3,7 @@ title: 'Get Acquainted with the DIG dataset'
 description: 'In this chapter you''ll use the tidyverse instruments to explore and get familiar with the dataset'
 ---
 
-## An exercise title written in sentence case
+## The Digoxin trial on mortality and morbidity in patients with heart failure
 
 ```yaml
 type: NormalExercise
@@ -28,7 +28,9 @@ In 1997 this paper came out on the prestigious NEJM. The aim was to compare the 
 
 `@pre_exercise_code`
 ```{r}
-# Load datasets and packages here.
+library(tidyverse)
+dig <- read_csv(dig.csv)
+glimpse(dig)
 ```
 
 `@sample_code`
